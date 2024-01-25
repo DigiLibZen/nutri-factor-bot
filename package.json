@@ -11,6 +11,17 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"puppeteer": "^21.7.0"
+		"puppeteer": "^21.7.0",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-adblocker": "^2.13.6",
+		"puppeteer-extra-plugin-recaptcha": "^3.6.8",
+		"puppeteer-extra-plugin-stealth": "^2.11.2",
+		"puppeteer-extra-plugin-user-preferences": "^2.4.1",
+		"puppeteer-screen-recorder": "^2.1.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.56.0",
+		"tsx": "^4.7.0",
+		"typescript": "^5.3.3"
 	}
 }
