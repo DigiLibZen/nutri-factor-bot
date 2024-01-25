@@ -1,0 +1,16 @@
+{
+	"name": "nutri-factor-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js & node mens-products.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"puppeteer": "^21.7.0"
+	}
+}
