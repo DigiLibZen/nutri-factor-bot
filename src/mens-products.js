@@ -27,6 +27,6 @@ import { SELECTORS, MENS_PRODUCTS_URL } from './constants.js'
     console.log(products)
     await browser.close()
 
-    fs.writeFileSync('./mensProducts.json', JSON.stringify(products))
+    fs.writeFileSync('../Results/mensProducts.json', JSON.stringify(products))
 
 })()
